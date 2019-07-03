@@ -1,7 +1,13 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <header>
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link>
+      </div>
+      <img class="logo" alt="SASS logo" src="../assets/logo.svg" />
+    </header>
+    <HelloWorld msg="Welcome to Your SASS Tutorial!" />
   </div>
 </template>
 
@@ -16,3 +22,10 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">
+@import "../styles/views/home-page.scss";
+// #nav {
+//   background-color: $clr4;
+// }
+</style>
