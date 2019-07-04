@@ -23,9 +23,5 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-@import "../styles/views/home-page.scss";
-// #nav {
-//   background-color: $clr4;
-// }
+<style scoped lang="scss" src="@/styles/views/_home-page.scss" >
 </style>

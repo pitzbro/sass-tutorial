@@ -25,3 +25,21 @@ header {
         height: 86vh;
     }
 }
+
+#nav {
+    a {
+        background: green;
+
+        &:first-child {
+            background-color: red;
+        }
+
+        body.homepage & {
+            color: gold;
+        }
+    }
+}
+
+body.homepage #nav a {
+    
+}
